@@ -6,17 +6,22 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin bottom: 200px;
 }
 
 .half-width {
     width: 200%;
-    padding: 5%;
+    padding: 4%;
 }
 
 .half-width img {
@@ -34,10 +39,44 @@ p {
     padding: 10px 20px;
     color: white;
     font-weight: 700;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .top-banner {
     background-image: url(images/top-banner.png);
-    background-repeat: none;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.Dream-Big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.exeperience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exeperience-item {
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 10;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#russia {
+    border-left: 7px solid blue tomato;
+}
+
+#china {
+    border-left: 7px blue;
+}
+
+footer p {
+    text-align: center;
 }
